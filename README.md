@@ -1,8 +1,6 @@
 # fabric-sdk-go-gm
-base from fabric 1.4.4 and fabric-sdk-go v1.0.0 beta
-
-This application only supports the GM version of the network.
-
+国密改造版本的fabric go sdk
+基于 fabric-sdk-go v1.0.0 
 usage method:
 
 The configuration of bccsp needs to be modified for the application of client:
