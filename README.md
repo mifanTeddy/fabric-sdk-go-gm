@@ -1,7 +1,8 @@
 # fabric-sdk-go-gm
 国密改造版本的fabric go sdk
 基于 fabric-sdk-go v1.0.0 
-usage method:
+
+
 
 The configuration of bccsp needs to be modified for the application of client:
 
@@ -17,7 +18,4 @@ BCCSP:
     hashAlgorithm: "GMSM3"
     softVerify: true
     Level: 256
-```
-
-# Remaining Problem
-- TLS is not supported in the current version
+``
